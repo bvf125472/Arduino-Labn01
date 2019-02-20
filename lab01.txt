@@ -1,0 +1,38 @@
+
+int LED=9;
+int i;
+void setup() {
+ 
+  pinMode(LED, OUTPUT);
+}
+
+void loop() {
+ for(i=0;i<3;i++)
+{
+  digitalWrite(LED, HIGH);   
+  delay(100);
+  digitalWrite(LED, LOW); 
+  delay(100);  
+}
+  delay(100);                       
+
+  for(i=0;i<3;i++)
+{
+  digitalWrite(LED, HIGH);   
+  delay(300);
+  digitalWrite(LED, LOW); 
+  delay(300);  
+}
+ 
+  delay(100);
+
+  for(i=0;i<3;i++)
+{
+  digitalWrite(LED, HIGH);   
+  delay(100);
+  digitalWrite(LED, LOW); 
+  delay(100); 
+}
+  
+  delay(300);  
+}
